@@ -1,0 +1,30 @@
+.skills {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    margin: 100px;
+}
+.skills h2 {
+    font-family: 'Rubik';
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.skills ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: minmax(100px, 200px) minmax(100px, 200px);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    place-content: center;
+    place-items: center;
+    padding: initial;
+}
+.skills li {
+    margin: 10px 0;
+}
+.skills span {
+    background: black;
+    color: white;
+}

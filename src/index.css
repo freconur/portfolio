@@ -1,0 +1,15 @@
+@import './Varibles.css';
+body {
+    margin: 0;
+    padding: 0;
+    /* background: #fbfbfb; */
+    background: var(--white);
+    color: #1E1E1F;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+  
+  #app {
+    margin: 0 0px;
+    position: relative;
+    min-height: 100vh;
+  }

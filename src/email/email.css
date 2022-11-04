@@ -1,0 +1,66 @@
+@import '../Varibles.css';
+.contact {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    font-family: 'Roboto';
+    grid-template-columns: minmax(300px, 600px);
+    margin-bottom: 100px;
+}
+.contact h2 {
+    font-family: 'Rubik';
+    font-weight: 800;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.form {
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+.form-group {
+    width: 100%;
+    margin: 10px 0;
+    
+}
+.form-group input  {
+    width: 300px;
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 3px;
+    background: #f7f7f7;
+    border: 1px solid #d1d1d175;
+} 
+.form-group textarea {
+    background: #f7f7f7;
+    border-radius: 3px;
+    border: 1px solid #d1d1d175;
+    width: 295px;
+    padding: 5px 5px;
+    height: 95px;
+    margin-top: 10px;
+    resize:none;
+}
+.form-group label{
+    width: 300px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.contact button{
+    background: var(--black);
+    color: var(--white);
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Rubik';
+    border: none;
+    cursor: pointer;
+}
+.contact button:hover{
+    opacity: .5;
+}
+.icon_message {
+    margin-right: 10px;
+}
